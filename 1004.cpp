@@ -1,23 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
+ using namespace std;
  
 int main() {
- 
-    int A;
-    int B;
-    int PROD;
+    int A, B;
+    float PROD;
     
-    printf("");
-    scanf("%d", &A);
-    
-    printf("");
-    scanf("%d", &B);
-    
-    PROD= A*B;
-    
-    printf("PROD = %d\n",PROD);
-    
-    
- 
+    cin >> A >> B;
+    PROD = A*B;
+    cout << "PROD = " << PROD << endl;
     return 0;
 }
